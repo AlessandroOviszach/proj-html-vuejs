@@ -1,6 +1,8 @@
 <template>
     <div class="jumbotron">
         <header>
+            <img class="logo" src="../assets/img/Logo.jpg" alt="PICWIK">
+
             <div class="menu-positioner">
                 <div class="menu-container">
                     <ul class="menu">
@@ -13,6 +15,11 @@
                 </div>
             </div>
         </header>
+        <div class="jumbo-content container">
+            <h1>professional development for <br> coaches and leaders</h1>
+
+            <a href="#">Learn more</a>
+        </div>
     </div>
 
 </template>
@@ -30,19 +37,23 @@ export default {
 <style scoped lang="scss">
 .jumbotron {
     height: 100vh;
-    background-image: url('../assets/img/course-1-2.jpg');
+    background-image: url('../assets/img/jumbo-bg.jpg');
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     header {
         display: flex;
-        justify-content: flex-end;
-
-        height: 4.5rem;
+        justify-content: space-around;
+        height: 5rem;
         background-color: #ffffff;
+
+        .logo {
+            height: 7.5rem;
+        }
 
         .menu-positioner {
             height: 100%;
-            margin-right: 25rem;
 
             .menu-container {
                 height: 100%;
@@ -55,10 +66,35 @@ export default {
                     li {
                         padding-right: 2rem;
                         font-weight: bold;
-
+                        text-transform: capitalize;
                     }
                 }
             }
+        }
+    }
+
+    .jumbo-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.5rem;
+            text-transform: capitalize;
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+
+        a {
+            padding: 1rem 3rem;
+            border: 1px solid #ccc;
+
+            font-size: 1rem;
+            text-transform: capitalize;
+            text-decoration: none;
+            color: #000;
         }
     }
 }

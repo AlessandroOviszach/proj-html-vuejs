@@ -20,4 +20,10 @@ export default {
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+.container {
+    max-width: 80vw;
+    margin: auto;
+}
+
 </style>
