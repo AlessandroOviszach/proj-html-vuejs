@@ -34,7 +34,7 @@ export default {
 }
 
 .container {
-    max-width: 70vw;
+    max-width: 1170px;
     margin: auto;
 }
 </style>

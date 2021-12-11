@@ -25,7 +25,7 @@ export default {
 .container{
     color: #192836;
     .catchphrase {
-        width: 70%;
+        width: 80%;
         margin: auto;
         text-align: center;
         padding: 4rem 0;
