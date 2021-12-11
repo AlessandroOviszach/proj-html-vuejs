@@ -1,14 +1,26 @@
 <template>
+<div id="app">
     <Header />
+
+    <main>
+        <Main />
+        <MeritCard />
+    </main>
+
+</div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Header from '@/components/Header.vue'
+import Main from '@/components/Main.vue'
+import MeritCard from '@/components/MeritCard.vue'
 
 export default {
     name: 'App',
     components: {
         Header,
+        Main,
+        MeritCard,
     }
 }
 </script>
@@ -18,12 +30,11 @@ export default {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
-    max-width: 80vw;
+    max-width: 70vw;
     margin: auto;
 }
-
 </style>
