@@ -32,7 +32,6 @@ export default {
         span {
             color: #d74d52;
         }
-
     }
 
 }

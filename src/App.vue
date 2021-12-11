@@ -6,6 +6,7 @@
         <Main />
         <MeritCard />
         <Statistics />
+        <RecentCourses />
     </main>
 
 </div>
@@ -16,6 +17,7 @@ import Header from '@/components/Header.vue'
 import Main from '@/components/Main.vue'
 import MeritCard from '@/components/MeritCard.vue'
 import Statistics from '@/components/Statistics.vue'
+import RecentCourses from '@/components/RecentCourses.vue'
 
 export default {
     name: 'App',
@@ -24,6 +26,7 @@ export default {
         Main,
         MeritCard,
         Statistics,
+        RecentCourses,
     }
 }
 </script>
