@@ -4,9 +4,6 @@
 
     <main>
         <Main />
-        <MeritCard />
-        <Statistics />
-        <RecentCourses />
     </main>
 
 </div>
@@ -15,22 +12,15 @@
 <script>
 import Header from '@/components/Header.vue'
 import Main from '@/components/Main.vue'
-import MeritCard from '@/components/MeritCard.vue'
-import Statistics from '@/components/Statistics.vue'
-import RecentCourses from '@/components/RecentCourses.vue'
 
 export default {
     name: 'App',
     components: {
         Header,
         Main,
-        MeritCard,
-        Statistics,
-        RecentCourses,
     }
 }
 </script>
-        Statistics
 
 <style lang="scss">
 * {

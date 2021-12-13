@@ -68,7 +68,6 @@ export default {
                 display: flex;
                 align-items: center;
                 position: absolute;
-                // color: red;
                 
                 span {
                     color: #192836;

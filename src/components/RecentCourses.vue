@@ -52,14 +52,14 @@ export default {
                     credits : 'University'
                 },
                 {
-                    img : 'bruce-mars-FWVMhUa_wbY-unsplash',
+                    img : 'course-1-2',
                     price : 'Free',
                     name : 'UI Animation using Sketch 3, Principle App, and Flinto',
                     description : 'This online photography course will teach you how to take amazing images and even sell...',
                     credits : 'University'
                 },
                 {
-                    img : 'bruce-mars-FWVMhUa_wbY-unsplash',
+                    img : 'william-thomas-ny6tO4ItOEY-unsplash',
                     price : 'Free',
                     name : 'UI Animation using Sketch 3, Principle App, and Flinto',
                     description : 'This online photography course will teach you how to take amazing images and even sell...',
@@ -67,12 +67,11 @@ export default {
                 },
             ]
         }
-    }
+    },
 }
 </script>
 
 <style scoped lang='scss'>
-
 .container {
     padding-top: 3rem;
     background-color: #ffffff7a;
@@ -114,6 +113,10 @@ export default {
                 p {
                     padding-bottom: 2.5rem;
                 }
+                a {
+                    text-decoration: none;
+                    color: #d74d52;
+                }
             }
         }
     }
@@ -144,16 +147,14 @@ export default {
     }
 }
 
-
 // styles
 .red {
     font-weight: bold;
-    color: red;
+    color: #d74d52;
     text-decoration: underline;
 }
 
 .bold {
     font-weight: bold;
 }
-
 </style>

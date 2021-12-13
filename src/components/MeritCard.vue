@@ -13,7 +13,6 @@
                     <p> {{MeritCardList[index].description}} </p>
                 </div>
             </div>
-
         </div>
     </div>
 </template>
@@ -44,13 +43,11 @@ export default {
         }
     }
 }
-
 </script>
 
 <style scoped lang='scss'>
-
 .container {
-    width: 60%;
+    // width: 60%;
     display: flex;
     justify-content: center;
     padding-bottom: 4rem;

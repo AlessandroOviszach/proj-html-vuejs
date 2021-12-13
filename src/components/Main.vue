@@ -8,15 +8,29 @@
                 </span>
                 for all students.
             </h1>
-
         </div>
 
+        <MeritCard />
+        <Statistics />
+        <RecentCourses />
+        <UpcomingEvents />
     </div>
 </template>
 
 <script>
+import MeritCard from '@/components/MeritCard.vue'
+import Statistics from '@/components/Statistics.vue'
+import RecentCourses from '@/components/RecentCourses.vue'
+import UpcomingEvents from '@/components/UpcomingEvents.vue'
+
 export default {
-    name: 'Main'
+    name: 'Main',
+    components: {
+        MeritCard,
+        Statistics,
+        RecentCourses,
+        UpcomingEvents,
+    }
 }
 </script>
 
