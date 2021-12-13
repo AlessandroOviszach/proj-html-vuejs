@@ -13,20 +13,22 @@
                 <div class="title-container">
                     <h3>Upcoming Events</h3>
                 </div>
-                <div class="offer">
-                    <h4>Princeton offers admission information sessions and student-led tours to capus visitors</h4>
-                    <a href="#">Learn more<span> > </span></a>
-                </div>
-                <div class="offer">
-                    <h4>Admission information sessions and student-led tours to compus visitors</h4>
-                    <a href="#">Learn more<span> > </span></a>
-                </div>
+                <div class="description">
+                    <div class="offer">
+                        <h4>Princeton offers admission information sessions and student-led tours to capus visitors</h4>
+                        <a href="#">Learn more<span> > </span></a>
+                    </div>
+                    <div class="offer">
+                        <h4>Admission information sessions and student-led tours to compus visitors</h4>
+                        <a href="#">Learn more<span> > </span></a>
+                    </div>
 
-                <div>
-                    <i class="far fa-map"></i>
-                    <a href="#">Event Locations</a>
-                    <span> > </span>
                 </div>
+                    <div class="explore-locations">
+                        <i class="far fa-map"></i>
+                        <a href="#">Event Locations</a>
+                        <span> > </span>
+                    </div>
             </div>
 
             <div>
@@ -45,10 +47,11 @@ export default {
 <style scoped lang='scss'>
 
 div {
+    position: relative;
     .video-container {
         position: relative;
         display: flex;
-        width: 65%;
+        width: 55%;
         img {
             width: 100%;
             height: 100%;
@@ -75,15 +78,19 @@ div {
     }
 
     .card-container {
-        width: 65%;
+        position: absolute;
+        top: 4rem;
+        right: 0;
+        width: 55%;
         background-color: #fff;
         box-shadow: 10px 10px 30px #ccc;
         .text-content {
             .title-container {
-                width: 35%;
+                width: 45%;
                 margin: auto;
                 padding-bottom: 4rem;
                 h3 {
+                    font-size: 1.5rem;
                     font-weight: 400;
                     color: #fff;
                     padding: 2rem;
@@ -91,8 +98,26 @@ div {
                     background-color: #d74d52;
                 }
             }
-            .offer {
-                
+            .description {
+                padding: 0 7.5rem 0 2.5rem;
+                .offer {
+                    padding-bottom: .8rem;
+                    h4 {
+                        font-size: 1.2rem;
+                        line-height: 2;
+                        padding-bottom: 1.5rem;
+                        
+                    }
+                }
+            }
+            .explore-locations {
+                padding: 4rem 0 6rem 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a {
+                    padding: 0 .5rem;
+                }
             }
         }
     }
