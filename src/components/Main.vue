@@ -14,6 +14,7 @@
         <Statistics />
         <RecentCourses />
         <UpcomingEvents />
+        <LatestNews />
     </div>
 </template>
 
@@ -22,6 +23,7 @@ import MeritCard from '@/components/MeritCard.vue'
 import Statistics from '@/components/Statistics.vue'
 import RecentCourses from '@/components/RecentCourses.vue'
 import UpcomingEvents from '@/components/UpcomingEvents.vue'
+import LatestNews from '@/components/LatestNews.vue'
 
 export default {
     name: 'Main',
@@ -30,6 +32,7 @@ export default {
         Statistics,
         RecentCourses,
         UpcomingEvents,
+        LatestNews,
     }
 }
 </script>
