@@ -1,5 +1,5 @@
 <template>
-  
+<i class="fas fa-envelope"></i>
 </template>
 
 <script>
@@ -9,25 +9,30 @@ export default {
         return {
             ContactList : [
                 {
-                    icon : '',
+                    icon : 'fas fa-map-marker-alt',
                     text : '',
-                }
+                },
+                {
+                    icon : 'fas fa-phone-square-alt',
+                    text : '',
+                },
+                {
+                    icon : 'fas fa-envelope',
+                    text : '',
+                },
             ],
             SupportList : [
                 {
-                    icon : '',
                     text : '',
                 }
             ],
             ExploreList : [
                 {
-                    icon : '',
                     text : '',
                 }
             ],
             VistList : [
                 {
-                    icon : '',
                     text : '',
                 }
             ],

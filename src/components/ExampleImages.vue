@@ -1,48 +1,51 @@
 <template>
     <div>
-        <div v-for="(parameter, index) in ImageList" :key="index">
-            <div class="img-container">
-                <img :src="require(`@/assets/img/${parameter.img}.jpg`)" alt="img">
-            </div>
-        </div>
+        <div class="footer-1"></div>
+        <div class="footer-2"></div>
+        <div class="footer-3"></div>
+        <div class="footer-4"></div>
+
+
+        <!-- <img src="../assets/img/footer-img-1.jpg" alt="footer-img-1">
+        <img src="../assets/img/footer-img-2.jpg" alt="footer-img-2">
+        <img src="../assets/img/footer-img-3.jpg" alt="footer-img-3">
+        <img src="../assets/img/footer-img-4.jpg" alt="footer-img-4"> -->
     </div>
 </template>
 
 <script>
 export default {
     name : 'ExampleImages',
-    data() {
-        return {
-            ImageList : [
-                {
-                    img : 'footer-img-1',
-                },
-                {
-                    img : 'footer-img-2',
-                },
-                {
-                    img : 'footer-img-3',
-                },
-                {
-                    img : 'footer-img-4',
-                },
-            ]
-        }
-    }
 }
 </script>
 
 <style scoped lang='scss'>
 div {
     display: flex;
-    max-width: 100vw;
-    // align-items: center;
-    .img-container {
+    width: 100%;
+    div {
         width: 100%;
-        img {
-            width: 24.7vw;
-            object-fit: fill;
-        }
+        height: 400px;
+    }
+
+    .footer-1,
+    .footer-2,
+    .footer-3,
+    .footer-4 {
+        background-position: center;
+        background-size: cover;
+    }
+    .footer-1 {
+        background-image: url('../assets/img/footer-img-1.jpg');
+    }
+    .footer-2 {
+        background-image: url('../assets/img/footer-img-2.jpg');
+    }
+    .footer-3 {
+        background-image: url('../assets/img/footer-img-3.jpg');
+    }
+    .footer-4 {
+        background-image: url('../assets/img/footer-img-4.jpg');
     }
 }
 </style>
