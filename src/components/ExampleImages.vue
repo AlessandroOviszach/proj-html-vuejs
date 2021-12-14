@@ -3,7 +3,6 @@
         <div v-for="(parameter, index) in ImageList" :key="index">
             <div class="img-container">
                 <img :src="require(`@/assets/img/${parameter.img}.jpg`)" alt="img">
-
             </div>
         </div>
     </div>
@@ -16,8 +15,17 @@ export default {
         return {
             ImageList : [
                 {
-                    img : 'sdfgs',
-                }
+                    img : 'footer-img-1',
+                },
+                {
+                    img : 'footer-img-2',
+                },
+                {
+                    img : 'footer-img-3',
+                },
+                {
+                    img : 'footer-img-4',
+                },
             ]
         }
     }
@@ -26,11 +34,14 @@ export default {
 
 <style scoped lang='scss'>
 div {
+    display: flex;
+    max-width: 100vw;
+    // align-items: center;
     .img-container {
-        width: calc(100% / 4);
-
+        width: 100%;
         img {
-            width: 100%;
+            width: 24.7vw;
+            object-fit: fill;
         }
     }
 }
