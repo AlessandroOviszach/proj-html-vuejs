@@ -25,7 +25,7 @@ div {
     width: 100%;
     div {
         width: 100%;
-        height: 400px;
+        height: calc(100vw / 7);
     }
 
     .footer-1,
