@@ -121,7 +121,7 @@ export default {
             .course-description {
                 padding: 3rem 1.5rem;
                 h2 {
-                    font-size: 1.3rem;
+                    font-size: 1.2rem;
                 }
 
                 .separator-container {
